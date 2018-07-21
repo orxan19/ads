@@ -482,3 +482,22 @@
 
 .select2-container--classic.select2-container--open .select2-dropdown {
   border-color: #5897fb; }
+.iwjmb-field .select2-container {
+  height: auto;
+  min-width: 221px;
+}
+#wpbody .iwjmb-select-all {
+  display: block;
+  margin-top: 5px;
+}
+
+.iwjmb-select {
+  min-width: 221px;
+}
+.iwjmb-select option {
+  padding: .5rem 1rem;
+}
+.iwjmb-select-all-none {
+  display: block;
+  margin-top: 5px;
+}
