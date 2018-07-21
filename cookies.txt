@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+ishvar.tfa.az	TRUE	/	FALSE	1999999999	PHPSESSID	4ff34abcf33671cd1fa797347b6ab2b2
+

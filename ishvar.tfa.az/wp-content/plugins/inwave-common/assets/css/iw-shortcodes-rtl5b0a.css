@@ -1,0 +1,56 @@
+.rtl .iw-posts .post-item .post-bottom .post-read-more {
+    float: left;
+}
+.rtl .iw-item-info.style1 .item-readmore i {
+    margin: 0 0 0 10px;
+}
+.rtl .iw-work-steps .owl-item:nth-child(2n+1) .iw-work-step.style1:before,
+.rtl .iw-work-steps .owl-item:nth-child(2n) .iw-work-step.style1:before {
+    left: auto;
+    right: 50%;
+}
+.rtl .iw-button.left-text {
+    text-align: right;
+}
+.rtl .iw-button.right-text {
+    text-align: left;
+}
+.rtl .iwj-categories.style7 .category-icon {
+    float: right;
+}
+.rtl .iwj-categories.style7 .category-info {
+    padding: 0 115px 0 0;
+}
+.rtl .iw-work-steps .iw-work-step.style2:before {
+    right: auto;
+    left: 28%;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.rtl .iw-item-info.style2 .item-info-icon {
+    float: right;
+    margin: 0 0 0 35px;
+}
+.rtl .iw-accordion-header:before {
+    left: auto;
+    right: 0;
+}
+.rtl .iw-accordion-header:after {
+    left: 0;
+    right: auto;
+}
+.rtl .iw-accordion-content .iw-desc {
+    margin-left: 75px;
+    margin-right: 25px;
+}
+.rtl .iw-contact-form7 {
+    float: left !important;
+}
+.rtl .iw-term-conditions ul.items li h3.title {
+    padding-left: 0;
+    padding-right: 25px;
+}
+.rtl .iw-term-conditions ul.items li .title:before {
+    left: auto;
+    right: 0;
+}

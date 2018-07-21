@@ -1,0 +1,272 @@
+/*
+Theme Package: InJob
+Theme URI: http://inwavethemes.com/wordpress/injob
+Author: inwavethemes
+Author URI: http://inwavethemes.com
+Description: main color.
+*/
+
+/*-------------------------------------------------------
+COLOR DEFINITION
+--------------------------------------------------------*/
+
+/** Default */
+a{
+    color: #2980b9;
+}
+.theme-color{
+    color: #2980b9!important;
+}
+.theme-color-force{
+    color: #2980b9!important;
+}
+.theme-color-hover:hover{
+    color: #2980b9!important;
+}
+.theme-bg-color{
+    background-color:#2980b9!important;
+}
+.theme-bg{
+    background: none repeat scroll 0 0 #2980b9!important;
+}
+.theme-bg-hover:hover{
+    background: none repeat scroll 0 0 #2980b9 !important;
+}
+.theme-border-color{
+    border-color: #2980b9!important;
+}
+
+/** panel settings */
+.panel-tools .button-command.active,.reset-button button{
+    border-color: #2980b9;
+    background-color:#2980b9;
+}
+/*****
+ Color define
+*****/
+.iw-map-find-jobs .job-item .address a:hover, .iw-map-find-jobs .job-item .company a:hover,
+.iw-heading.style2 .iwh-sub-title,
+.iw-video-html.style1 .play-button,
+.iw-posts .post-item:hover .post-title a,
+.iw-footer.iw-footer-default a:hover,
+.iw-footer.iw-footer-default .widget li a:hover,
+body .iw-footer-middle .widget_nav_menu .menu li a:hover,
+.iw-tabs .iw-tab-item.active, .iw-tabs.layout3 .iw-tab-item,
+.iw-recent-jobs .job-item .job-title:hover,
+.job-info .company i,
+.iw-recent-resumes .recent-resume-item .view-resume:hover,
+.iwj-jobs .job-item .job-info .job-title:hover,
+.iwj-featured-categories .category-item:hover .category-title,
+.page-content .iw-posts-filter .filter.is-checked,
+.inwave-map .info .address .left,
+.iw-job-detail .job-detail-info ul li.job-type,
+.sidebar-jobs .sidebar-job-1 ul li:hover a,
+.iwj-jobs .iwj-jobs-listing .job-info .job-type.full-time span,
+.iwj-recent-resumes-widget .top-resume-item .company i,
+.iwj-recent-resumes-widget.owl-theme .owl-controls .owl-buttons div:hover,
+.iw-top-companies.owl-theme .owl-controls .owl-buttons div:hover,
+.widget_recent_comments .recentcomments a:hover,
+.iwj-resumes-listing .iwj-resume-item:hover .resume-info .resume-name,
+.iwj-resumes-listing .iwj-resume-item .resume-info .info-bottom span.position i,
+.iwj-resumes-listing .iwj-resume-item .resume-info .resume-type.full-time span,
+.iwj-resume-detail ul.time-line li .top span,
+.iwj-resume-detail .resume-detail-content .job-requirements .job-category i,
+.iwj-resume-detail .resume-detail-content .job-requirements .job-category .title,
+.iwj-task-bar.job ul li.active span.desc,
+.iwj-thankyou-page .iwj-thankyou-order-details li strong,
+.iwj-thankyou-page .iwj-thankyou-order-received,
+.iwj-order-payment .iwj-order-price > div.total-price span + span,
+.header .iw-header .iw-menu-main .navbar-nav li .sub-menu li:hover > a,
+.header .iw-header .iw-menu-main .navbar-nav li .sub-menu li.current-menu-item > a,
+.iwj-jobs-grid .job-item.featured .job-title a,
+.iwj-jobs-grid .job-info .job-type span,
+.iwj-employer-widget-wrap .employer-info .employer-email i,
+.iwj-jobs .job-item .job-info .job-title:hover,
+.iwj-input-checkbox [type="checkbox"]:not(:checked) + label:after,
+.iwj-input-checkbox [type="checkbox"]:checked + label:after,
+.iwj-find-jobs.style1 form .fields .field-item label,
+.iwj-find-jobs.style1 form .fields .field-item .field-content:hover .select2-container--default .select2-selection--single .select2-selection__rendered,
+.iwj-find-jobs.style1 form .fields .field-item .field-content:hover .input-select input,
+.iwj-jobs .iwj-jobs-listing .job-item .job-info .job-title:hover,
+.iw-posts .post-item .post-bottom .post-author a:hover,
+.iwj-jobs .iwj-jobs-listing .job-item .job-info .job-title a:hover,
+.iwj-jobs-grid .job-item .job-title a:hover,
+.recent-resume-item .name a:hover,
+.iwj-find-jobs .trending-keywords a:hover,
+.iwj-find-jobs .trending-keywords a.active,
+.employer-info .info-company .company i,
+.header .sub-menu li a:hover .icon-arrow::before,
+.iw-job-detail-sidebar .info-bottom ul li .content a:hover,
+.sidebar-jobs .iwj-input-checkbox [type="checkbox"]:checked + label,
+body .select2-container--default .select2-results__option[aria-selected="true"],
+body .select2-container--default .select2-results__option--highlighted[aria-selected],
+.iwj-dashboard-menu li:hover a, .iwj-dashboard-menu li:hover i,
+.iwj-dashboard-menu li.active a, .iwj-dashboard-menu li.active i, .iwj-employers-listing .iwj-employer-item .employer-info .employer-name:hover,
+.iwj-application-details .application-details > li .value, .iwj-filter-selected-item, .blog-author .author-name a:hover,
+.iwj-pricing-tables .pricing-item .item-bottom ul li strong, .iwj-employers-slider .owl-theme .owl-controls .owl-buttons div:hover,
+.iw-item-info.style2 .item-info-icon, .iwj-find-jobs.style2 form .fields .field-item i, .iwj-find-jobs form .fields .field-item i,
+.iw-posts-2.style2 .post-content h3.post-title a:hover, .iwj-employers-slider .employer-title a:hover,
+.iwj-jobs-carousel .recent-job-item .job-title:hover, .iw-posts-2.style2 .post-content .post-author a:hover,
+.job-item .job-title a:hover, .breadcrumbs > li > a:hover,
+.job-item .job-info a:hover,
+.iwj-employers-slider .employer-locations a:hover, .iwj-widget-employers .employer-title a:hover,
+.blog-content.single-content .post-meta ul li a:hover,
+.widget_categories ul li:hover, .widget_meta ul li:hover, .widget_archive ul li:hover,
+.widget_categories ul li:hover a, .widget_meta ul li:hover a, .widget_archive ul li:hover a,
+.widget_pages ul li a:hover, .widget_nav_menu ul li a:hover,
+.blog-content.single-content .next-post a:hover,
+.comments-content .comment_list .comment_reply a:hover,
+.blog-list .post-item .post-meta ul li a:hover,
+.blog-list .post-item .post-bar-left a:hover,
+.blog-list .post-item .post-title a:hover,
+.iwj-candidates.iwj-listing .candidate-info .categories i,
+.iwj-candidates.iwj-listing .candidate-title a:hover,
+.iwj-gallery-detail .bx-wrapper .bx-controls-direction a:hover,
+.iwj-widget-information li a:hover,
+.search-results .entry-header h3 a:hover,.search-results .entry-meta ul li a:hover
+.iwj-widget-information li a:hover, .iwj-candicate-detail ul.time-line li .top span,
+.iwj-candicate-detail .resume-detail-info .time-line .title, .wc-menu-content ul li a:hover,
+.wc-menu-content ul li.active a, .heading-block .sub-title, .iwj-version .changelog:hover,
+.iw-image-link .title a:hover, .off-canvas-menu .canvas-menu li.current-menu-parent > a,
+.off-canvas-menu .canvas-menu li.current-menu-item > a, .iwj-jobs-carousel-v3.style3 .iwj-item .job-title a:hover,
+.iwj-jobs-carousel-v3.style3 .sallary i, .iw-accordion-header:after,
+.iw-accordion-header.active, .iw-shortcode-accordions .iw-accordions .iw-accordion-header.active a,
+.iwj-categories.style8 .item-category .category-icon i, .how-it-work .iw-title, .iw-term-conditions ul.items li h3.title,
+#woo-tab-buttons li.current a, .header-style-v2 .register-login .login,
+.iw-item-info.style3 .info-wrap .title a:hover, .product-detail .variations .reset_variations,
+.product-content .woocommerce-message:before, .iw_search_map .job-item .company i,
+.header.header-default .iwj-switch-language .language-item a:hover,
+.iw-job-advanced_search.white .hide-advance, .iw-job-advanced_search.white .iwj-input-checkbox [type="checkbox"]:checked + label,
+.iw-job-advanced_search.white .filter-item .iwj-input-checkbox label:hover,
+.iw-profile-content .iwj-employerdl-content .iwj-table-overflow-x table > tbody > tr > td a:hover
+{
+    color: #2980b9;
+}
+.job-list-email .job-meta li a,
+.product-shop .cat-list a, .product-shop .tags-list a
+{
+    color: #2980b9 !important;
+}
+.header.header-default .iw-header .buy-service-button a.action-button, .iw-item-info.style1.bg-color-theme:after,
+.header.header-default .navbar-default .navbar-nav > li.selected.active > a::after,
+.header.header-default .navbar-default .navbar-nav > li[class*="current-menu"] > a::after,
+.header.header-default .navbar-default .navbar-nav > li > a:hover::after, .iw-heading.style2 .iwh-sub-title:after,
+.iw-heading.style2 .iwh-sub-title:before, .iw-tabs .iw-tab-items .iw-tab-items-bg, .iw-tabs.layout3 .iw-tab-item.active, .iw-tabs.layout3 .iw-tab-item:hover,
+.recent-resume-item .view-resume,.candidate-item .view-candidate,
+.comment-respond input.btn-submit, .blog-content .post-item .owl-theme .owl-controls .owl-buttons div:hover,
+.iw-contact-form-7.contact-map .submit-button input, .iw-job-detail .job-detail-about .overview-content p:before,
+.page-nav span.current, .page-nav a.page-numbers:hover, .iwj-pagination span.current,
+.iwj-pagination a.page-numbers:hover,
+.sidebar-jobs .sidebar-job-1 ul li:hover:before,
+.sidebar-jobs .sidebar-job-1 ul li:after,
+.iwj-jobs .iwj-jobs-listing .job-item:hover .job-info .job-type.full-time span,
+.iwj-resume-detail .skills ul li .scoring .line,
+.iwj-task-bar.job ul li.active span.number,
+.iwj-sjob-step-package form > h3, .iwj-task-bar.job ul li.active:after,
+.jobs-layout-form form .layout-switcher ul li.active a,
+.jobs-layout-form form .layout-switcher ul li.active a:hover,
+.iwjmb-input .iwjmb-button.add-clone:hover,
+.iwj-magic-line,
+input[type="radio"].custom-input-radio:checked + label,
+.header.header-default .iw-header a.register, .header .top-search,
+.iwj-featured-categories .all-categories a:hover,
+.page-nav .page-numbers.active, .page-nav .page-numbers:hover,
+.iw-job-detail .job-detail-about .item.desc .content:before,
+.iwj-dashboard-main .iwj-jobs .job-aplication .applications,
+.iwj-dashboard-main h3.iwj-title-table,
+.tokenfield.form-control .token, body ul.ui-menu li:hover,
+.iw-button.button1 a, .iw-video-html.style1 .bt-video-effect:hover,
+.iw-video-html.style1 .bt-video-effect:hover:before, .iw-video-html.style1 .bt-video-effect:hover:after,
+.header .off-canvas-btn, .iwj-btn-primary,
+.blog-content.single-content .post-tags a:hover,
+.iwj-widget-employers .item .total-job:hover, .tagcloud a:hover,
+.iwj-jobs.iwj-featured-jobs.style2 .owl-theme .owl-controls .owl-page.active span.owl-numbers,
+.iwj-jobs.iwj-featured-jobs.style2 .owl-theme .owl-controls .owl-page span.owl-numbers:hover,
+.iw-recent-jobs.style2 .owl-theme .owl-controls .owl-page.active span.owl-numbers,
+.iw-recent-jobs.style2 .owl-theme .owl-controls .owl-page span.owl-numbers:hover,
+.iwj-jobs-carousel .owl-theme .owl-controls .owl-page.active span.owl-numbers,
+.iwj-jobs-carousel .owl-theme .owl-controls .owl-page span.owl-numbers:hover,
+.iwj-login-form-popup .modal-header, .iwj-register-form-popup .modal-header,#iwj-job-alert-popup .modal-header,
+.page-nav.page-nav-blog .page-numbers.current, .iwj-categories.style1 .item-category.all-categories,
+.price-countdown .price.active, .price-countdown .price-line .line, .wc-menu-content ul li:after,
+.wc-menu-content ul li:before, .info-version li .bold-text:before,
+.iwj-categories.style7 .item-category:after, .iw-accordion-header:before, .iw-faqs .iw-accordion-header a:before,
+.iw-item-info.style3 .info-wrap .item-info-icon,
+.inwave-map-contact.style2 .inwave-map .infoBox:before, .iw-member a:hover,
+.cart-quickaccess .cart-product-number, .iwj-candidates.iwj-grid .candidate-item .view-resume,
+.header.header-default.v5 .navbar-default .navbar-nav > li.selected.active > a,
+.header.header-default.v5 .navbar-default .navbar-nav > li[class*="current-menu"] > a,
+.header.header-default.v5 .navbar-default .navbar-nav > li > a:hover,
+.iw-job-advanced_search.white .iwj-input-checkbox [type="checkbox"]:not(:checked) + label:after,
+.iw-job-advanced_search.white .iwj-input-checkbox [type="checkbox"]:checked + label:after,
+.main-information .employer-contact .empl-action-button a.iwj-view-profile:hover {
+    background: #2980b9;
+}
+.main-information .employer-contact .empl-action-button a.iwj-view-profile:hover{
+    border-color: #2980b9;
+}
+.iw-recent-resumes .recent-resume-item .view-resume,
+.page-nav span.current, .page-nav a.page-numbers:hover,
+.iwj-pagination span.current, .iwj-pagination a.page-numbers:hover,
+.iwj-find-jobs form .fields .field-item .field-content:hover:after,
+.iwj-find-jobs form .fields .field-item .select2:hover:after,
+.iwj-find-jobs form .fields .field-item .select2:focus:after,
+.iwj-find-jobs form .fields .field-item .select2-container--open:after,
+body .select2-container--open .iwj-find-jobs-dropdown.select2-dropdown,
+.iwj-find-jobs.style1 form .fields .field-item.key-word .field-content:hover:after,
+.iw-top-companies .item .total-job:hover, .iwj-widget-employers .item .total-job:hover,
+.off-canvas-menu .canvas-menu > li.open, .product-content .woocommerce-message,
+.iw-job-advanced_search.white .hide-advance
+{
+    border-color: #2980b9;
+}
+
+.iwj-featured-categories .all-categories a:hover {
+    border: 1px #2980b9 solid;
+}
+a.iwj-btn.action-button.follow.iwj-download-cv:hover,
+.woocommerce button.button.alt.btn-cart:hover{
+    background: #2980b9;
+    border-color: #2980b9;
+
+}
+
+/* woocommerce */
+.cart-table-items .product-info a:hover,
+.woocommerce .calc_shipping_postcode_wap .button,
+.woocommerce-MyAccount-navigation a:hover, .woocommerce-MyAccount-navigation li.is-active a,
+ul.product-categories li a:hover {
+    color: #2980b9;
+}
+.woo-list-product-grid .price-box del, .woo-list-product-row .price-box del, .product-detail .price-box del {
+    color: #2980b9;
+    text-decoration-color: #2980b9;
+}
+.woo-list-product-grid .add-cart a.add_to_cart_button,
+.woo-list-product-row .actions-box a.add_to_cart_button,
+ul.page-numbers li span.page-numbers, ul.page-numbers li a.page-numbers:hover,
+.product-detail .product-shop .add-to-box button.single_add_to_cart_button ,
+.product-detail .product-shop .single_variation_wrap .single_add_to_cart_button,
+.woocommerce .product-cart .cart-table .woo-cart-coupon .button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
+.woocommerce .calc_shipping_postcode_wap .button,
+.woocommerce .checkout-box-login button.button,.woocommerce .checkout-box-coupon button.button,
+.woocommerce-message a.wc-forward,
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order,
+.woocommerce table.wishlist_table td.product-add-to-cart a,
+.woocommerce table.wishlist_table td.product-add-to-cart a:hover,
+.product-content .woocommerce-message a.wc-forward, .woocommerce a.button,
+.woocommerce-account form.woocommerce-form-login .form-row input.button,
+.woocommerce-account .woocommerce-MyAccount-content a.woocommerce-Button,
+form.woocommerce-EditAccountForm.edit-account input.woocommerce-Button,
+.woocommerce .woocommerce-MyAccount-content a.button:hover,
+.woocommerce .widget_price_filter .price_slider_amount .button,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle:before,
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
+    background: #2980b9;
+}
+.woocommerce-account .woocommerce-MyAccount-content a.woocommerce-Button,
+form.woocommerce-EditAccountForm.edit-account input.woocommerce-Button {
+    border-color: #2980b9;
+}
