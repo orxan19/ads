@@ -224,49 +224,4 @@ body .select2-container--open .iwj-find-jobs-dropdown.select2-dropdown,
 .iwj-featured-categories .all-categories a:hover {
     border: 1px #2980b9 solid;
 }
-a.iwj-btn.action-button.follow.iwj-download-cv:hover,
-.woocommerce button.button.alt.btn-cart:hover{
-    background: #2980b9;
-    border-color: #2980b9;
 
-}
-
-/* woocommerce */
-.cart-table-items .product-info a:hover,
-.woocommerce .calc_shipping_postcode_wap .button,
-.woocommerce-MyAccount-navigation a:hover, .woocommerce-MyAccount-navigation li.is-active a,
-ul.product-categories li a:hover {
-    color: #2980b9;
-}
-.woo-list-product-grid .price-box del, .woo-list-product-row .price-box del, .product-detail .price-box del {
-    color: #2980b9;
-    text-decoration-color: #2980b9;
-}
-.woo-list-product-grid .add-cart a.add_to_cart_button,
-.woo-list-product-row .actions-box a.add_to_cart_button,
-ul.page-numbers li span.page-numbers, ul.page-numbers li a.page-numbers:hover,
-.product-detail .product-shop .add-to-box button.single_add_to_cart_button ,
-.product-detail .product-shop .single_variation_wrap .single_add_to_cart_button,
-.woocommerce .product-cart .cart-table .woo-cart-coupon .button,
-.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
-.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
-.woocommerce .calc_shipping_postcode_wap .button,
-.woocommerce .checkout-box-login button.button,.woocommerce .checkout-box-coupon button.button,
-.woocommerce-message a.wc-forward,
-.woocommerce #payment #place_order, .woocommerce-page #payment #place_order,
-.woocommerce table.wishlist_table td.product-add-to-cart a,
-.woocommerce table.wishlist_table td.product-add-to-cart a:hover,
-.product-content .woocommerce-message a.wc-forward, .woocommerce a.button,
-.woocommerce-account form.woocommerce-form-login .form-row input.button,
-.woocommerce-account .woocommerce-MyAccount-content a.woocommerce-Button,
-form.woocommerce-EditAccountForm.edit-account input.woocommerce-Button,
-.woocommerce .woocommerce-MyAccount-content a.button:hover,
-.woocommerce .widget_price_filter .price_slider_amount .button,
-.woocommerce .widget_price_filter .ui-slider .ui-slider-handle:before,
-.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
-    background: #2980b9;
-}
-.woocommerce-account .woocommerce-MyAccount-content a.woocommerce-Button,
-form.woocommerce-EditAccountForm.edit-account input.woocommerce-Button {
-    border-color: #2980b9;
-}
